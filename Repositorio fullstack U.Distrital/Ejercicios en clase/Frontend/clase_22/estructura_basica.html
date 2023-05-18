@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="" target="_blank">
+    <link rel="icon" href="chip.ico" type="image/x-icon">
+    <title>EJERCICIOS HTML5</title>
+</head>
+<body>
+    
+    <!--secciones de la pagina web-->
+    <section>
+    </section>
+    <!--divisiones de la pagina web-->
+    <div>
+    </div>
+    <!-- Etiquetas utilizadas para encabezados -->
+    <h1>PROYECTO ATENEA - UNIVERSIDAD DISTRITAL</h1>
+    <h2>TODOS A LA U</h2>
+    <h3>FULLSTACK INTERMEDIO</h3>
+    <h4>FRONTEND ENFOCADO EN PROYECTOS</h4>
+    <h5>HTML5</h5>
+    <h6>ETIQUTAS</h6>
+    <!--Etiqueta a, funciona para redireccionamiento-->
+    <h2> Para ingresar al sitio web del IDEXUD hacer click <a href="http://idexud.udistrital.edu.co/" target="_blank">Aquí</a> </h2>
+    <h2> Para descargar el documento hacer click <a href="Actividad M06 FSI.pdf" download>Aquí</a> </h2>
+    <h2> Para descargar la imagen hacer click <a href="lions-g7ea532080_1280.jpg" download>Aquí</a> </h2>
+    <!---->
+    <a href="mailto:andresdeveloper99@gmail.com?cc=copia@destinatario.com;
+    segundacopia@destinatario.com&bcc=copiaoculta@destinatario.com&subject=Asunto%20con%20espacios&body=Este%20es%20el%20cuerpo%20del%20mensaje">andresdeveloper99@gmail.com</a>
+    <a href="https://api.whatsapp.com/send/?phone=3246802565">+573246802565</a>
+
+    <!--Etiqueta abbr sirve para resaltar alguna palabra abreviada y al pasar el mouse
+    nos muestra el significado-->
+        <p><dfn><abbr title="Cascading Style Sheets">CSS</abbr>
+    </dfn> is a language that describes the style of an HTML document.</p>
+    <p> El  <dfn><abbr title="Hypertext Markup Language">HTML</abbr>
+    </dfn> se utiliza para definir la estrucutura de una pagina web</p>
+
+
+    <!--Etiqueta address permite identificar de mejor manera la direccion de contacto de un sitio web-->
+    <address>
+        Written by <a href="mailto:webmaster@example.com">Jon Doe</a>.<br>
+        Visit us at:<br>
+        Example.com<br>
+        Box 564, Disneyland<br>
+        USA
+    </address>
+
+    <!--Etiqueta map - area, permite mapear imagenes y faccionarla para añadir funcionamiento-->
+    <img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+
+    <map name="workmap">
+    <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+    <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+    <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
+    </map>
+
+
+    <!--Etiqueta article, define un articulo de un sitio web-->
+    <article>
+        <h2>Google Chrome</h2>
+        <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+        </article>
+        
+        <article>
+        <h2>Mozilla Firefox</h2>
+        <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
+        </article>
+        
+        <article>
+        <h2>Microsoft Edge</h2>
+        <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+    </article>
+
+    <!--Etiqueta aside barra lateral, comunmente usada para publicidad, o filtros de un blog, noticias, entre otros-->
+    <aside>
+        <h4>Epcot Center</h4>
+        <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+    </aside>
+
+
+    <!--Etiqueta audio permite agregar audios al sitio web con diversas opciones de configuración-->
+    <audio autoplay controls>
+        <source src="audio3.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!--Etiqueta b permite dar reelevancia a un texto y funciona similar al strong y la negrilla en word-->
+    <p>This is normal text - <b>and this is bold text</b>.</p>
+
+
+    <h1>The blockquote element</h1>
+
+    <p>Here is a quote from WWF's website:</p>
+    <!--Etiqueta blockquote permite citas de un sitio web algo que estomando (blog, comentario) para mejorar
+    la indexación de nuestro sitio web-->
+    <blockquote cite="http://www.worldwildlife.org/who/index.html">
+        For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
+    </blockquote>
+
+    <!--Etiqueta br funciona como un salto de linea-->
+    <p>hola mi nombre es Andrés <br> mi apellido es Pineda <br> mi número de cel es 111111  </p>
+
+    <!--Etiqueta button, es un botón que puede tener diversas funciones al ser ejecutado-->
+    <button type="button" autofocus disabled onclick="alert('ESTA ES UN ALERTA ME VOY A COMPRAR UNA Z1000')">Click Me!</button>
+    <button type="button" autofocus  onclick="funcion()">Click Me!</button>
+
+
+    <script>
+        function  funcion() {
+            window.location.href = 'https://api.whatsapp.com/send/?phone=3246802565';
+        }
+    </script>
+    
+
+    <!--CANVAS-->
+
+    <canvas id="myCanvas">Your browser does not support the canvas tag.</canvas>
+
+    <script>
+        var c = document.getElementById("myCanvas");
+        var ctx = c.getContext("2d");
+        ctx.beginPath();
+        ctx.moveTo(0, 0);       
+        ctx.fillline(0, 0, 100, 100);
+        ctx.stroke();
+    </script>
+
+    <!--Ejemplo de etiquedas de tablas-->
+
+    <table style="border: 1px solid black;">
+        <thead>
+            <tr >
+                <th style="border: 1px solid black;" colspan="2">id y nombre</th>
+                <th style="border: 1px solid black;">apellido</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="border: 1px solid black;">1</td>
+                <td style="border: 1px solid black;">Andrés</td>
+                <td style="border: 1px solid black;">Pineda</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>DYLAN </td>
+                <td>RAMIREZ </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>CAMILA </td>
+                <td>BERNAL </td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <embed  src="https://getbootstrap.com/docs/4.0/content/tables/"  width="500" height="500">
+
+
+ <!--Ejemplo de fieldset-->
+
+        <style>
+            fieldset{
+              border-radius: 20px;
+              border: 1px dotted #c2c2c2;
+              box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+            }
+            </style>
+            <form action="/action_page.php">
+             <fieldset>
+              <legend>Personalia:</legend>
+              <label for="fname">First name:</label>
+              <input type="text" id="fname" name="fname"><br><br>
+              <label for="lname">Last name:</label>
+              <input type="checkbox" name="" id="">
+              <input type="email" name="" id="">
+              <input type="file" name="" id="">
+              <input type="radio" name="" id="">
+              <input type="tel" name="" id="">
+              <input type="range" name="" id="">
+              <input type="text" id="lname" name="lname"><br><br>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required><br><br>
+              <label for="birthday">Birthday:</label>
+              <input type="date" id="birthday" name="birthday"><br><br>
+              <input type="reset" value="">
+              <input type="submit" value="Submit">
+             </fieldset>
+            </form>
+
+ <!--Ejemplo de iframe similar a embebed-->
+
+
+            <iframe src="Actividad M06 FSI.pdf" width="500" height="500"></iframe>
+
+
+ <!--Ejemplo de idesplegable-->
+            <details>
+                <summary>Epcot Center</summary>
+                <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+                <img src="workplace.jpg" alt="">
+            </details>
+
+
+            <video width="320" height="240" controls>
+                <source src="aptitud-fisica-148208.mp4" type="video/mp4">
+                <source src="movie.ogg" type="video/ogg">
+                Your browser does not support the video tag.
+              </video>
+</body>
+</html>
