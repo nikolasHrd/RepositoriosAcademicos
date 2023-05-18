@@ -1,0 +1,36 @@
+Enteros (int): los enteros son números enteros positivos o negativos, sin decimales. En PHP, los enteros pueden ser de diferentes tamaños, desde -2147483648 hasta 2147483647. Un ejemplo práctico de su uso en PHP podría ser el siguiente:
+
+$num1 = 5;
+$num2 = -10;
+$resultado = $num1 + $num2;
+echo $resultado;
+
+En este ejemplo, se están utilizando enteros para almacenar dos números y luego se está realizando una operación de suma y se imprime el resultado.
+
+Cadenas (string): las cadenas son una secuencia de caracteres, como texto. En PHP, las cadenas se pueden crear utilizando comillas simples o dobles. Un ejemplo práctico podría ser:
+
+$nombre = "Juan";
+$apellido = "Pérez";
+echo "El nombre completo es: " . $nombre . " " . $apellido;
+
+En este ejemplo, se están utilizando cadenas para almacenar el nombre y apellido de una persona, y luego se está concatenando para imprimir el nombre completo.
+
+Booleanos (bool): los booleanos son valores verdaderos o falsos. En PHP, los valores verdaderos se representan como "true" y los valores falsos se representan como "false". Un ejemplo práctico podría ser:
+
+$edad = 18;
+$es_mayor_edad = ($edad >= 18);
+if ($es_mayor_edad) {
+  echo "La persona es mayor de edad.";
+} else {
+  echo "La persona es menor de edad.";
+}
+
+En este ejemplo, se está utilizando un booleano para determinar si una persona es mayor de edad o no, y luego se está utilizando una estructura condicional "if-else" para imprimir un mensaje dependiendo del resultado.
+
+Arreglos (array): los arreglos son una colección de valores que se pueden acceder utilizando un índice numérico. En PHP, los arreglos se pueden crear de diferentes maneras. Un ejemplo práctico podría ser:
+
+
+$colores = array("rojo", "verde", "azul");
+echo "El segundo elemento es: " . $colores[1];
+
+

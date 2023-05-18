@@ -1,0 +1,24 @@
+Para realizar un diseño básico que cuente con los principios de diseño, se deben tener en cuenta las siguientes pautas:
+Uso de una paleta de colores coherente y atractiva.
+Selección de tipografías adecuadas y legibles.
+Uso de elementos gráficos para llamar la atención del usuario.
+Diseño de la interfaz de manera intuitiva y coherente.
+Mantenimiento de una jerarquía visual adecuada para guiar al usuario en el recorrido del sitio web.
+Para realizar un diseño de baja fidelidad de un formulario web, se pueden seguir los siguientes pasos:
+Definir los campos necesarios para el formulario.
+Crear un boceto del formulario en papel o en un programa de diseño gráfico.
+Agregar elementos gráficos como iconos, colores y formas para hacer el formulario más atractivo visualmente.
+Revisar el diseño y realizar ajustes según sea necesario.
+Para realizar un diseño de alta fidelidad de una página web básica, se pueden seguir los siguientes pasos:
+Crear un wireframe o esquema del sitio web.
+Diseñar la interfaz del sitio web utilizando un programa de diseño gráfico.
+Seleccionar una paleta de colores coherente y atractiva.
+Elegir tipografías adecuadas y legibles.
+Agregar elementos gráficos como iconos, imágenes y formas para hacer la página web más atractiva visualmente.
+Revisar el diseño y realizar ajustes según sea necesario.
+Usando Design Thinking, se pueden proponer soluciones al problema de la siguiente manera:
+Empatía con el usuario: Entender las necesidades de los usuarios y sus problemas con el sitio web actual.
+Definir: Definir el problema y establecer objetivos claros para mejorar la experiencia del usuario y las ventas de la empresa.
+Idear: Generar ideas para mejorar el sitio web y la experiencia del usuario, teniendo en cuenta las necesidades y objetivos definidos previamente.
+Elaborar prototipos: Crear prototipos del sitio web mejorado y realizar pruebas con usuarios reales para evaluar su eficacia.
+Testear: Evaluar la eficacia de los prototipos y realizar ajustes según sea necesario para lograr una experiencia del usuario satisfactoria y un aumento en las ventas de la empresa.

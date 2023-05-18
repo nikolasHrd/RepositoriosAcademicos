@@ -1,0 +1,18 @@
+Requerimientos funcionales:
+
+Permitir conocer sobre una marca de zapatillas.
+Visualizar más de 100 productos.
+Proporcionar información de la empresa (misión, visión, objetivos, entre otros).
+Presentar los productos destacados.
+Manejar videos de presentación de productos.
+Contar con sistema de pagos en línea.
+Permitir tener datos de contacto de la empresa.
+Requerimientos no funcionales:
+
+La aplicación móvil y el sitio web deben ser fáciles de usar e intuitivos para el usuario.
+La aplicación móvil y el sitio web deben tener un diseño atractivo y moderno.
+La información de la empresa y los productos debe ser precisa y actualizada regularmente.
+El sistema de pagos en línea debe ser seguro y confiable.
+El tiempo de carga de la aplicación móvil y del sitio web debe ser rápido.
+La aplicación móvil y el sitio web deben ser accesibles desde diferentes dispositivos y navegadores.
+La aplicación móvil debe estar disponible para las plataformas iOS y Android.

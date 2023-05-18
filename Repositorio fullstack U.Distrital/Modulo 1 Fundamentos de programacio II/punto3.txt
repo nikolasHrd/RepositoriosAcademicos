@@ -1,0 +1,20 @@
+HTML/CSS/JavaScript:
+HTML (Hypertext Markup Language), CSS (Cascading Style Sheets) y JavaScript son los lenguajes principales utilizados para crear páginas web interactivas.
+HTML se utiliza para estructurar el contenido de la página, CSS se utiliza para dar estilo a la página y JavaScript se utiliza para agregar interactividad. 
+Juntos, estos tres lenguajes forman la base de la mayoría de las páginas web modernas.
+
+React:
+React es una librería de JavaScript utilizada para construir interfaces de usuario interactivas. React utiliza un enfoque basado en componentes, 
+lo que significa que se pueden construir pequeños componentes reutilizables que se pueden combinar para crear interfaces de usuario complejas. 
+React también utiliza un enfoque de actualización eficiente, lo que significa que solo actualiza los componentes que necesitan actualizarse, 
+lo que mejora el rendimiento de la aplicación.
+
+Bootstrap:
+Bootstrap es un framework de diseño front-end que proporciona una serie de componentes y estilos predefinidos para ayudar a los desarrolladores a crear 
+rápidamente interfaces de usuario atractivas y responsivas. Bootstrap utiliza HTML, CSS y JavaScript para proporcionar una amplia gama de componentes, 
+como botones, formularios, menús y carruseles, que se pueden personalizar fácilmente para adaptarse a las necesidades del proyecto. Bootstrap también es 
+altamente personalizable y se puede adaptar para satisfacer las necesidades específicas de la aplicación.
+
+
+
+

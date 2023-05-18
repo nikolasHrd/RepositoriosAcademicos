@@ -1,0 +1,14 @@
+Angular:
+Angular es un framework de JavaScript mantenido por Google y utilizado para construir aplicaciones web de una sola página (Single Page Applications o SPA).
+ Utiliza una arquitectura basada en componentes para crear una experiencia de usuario dinámica y altamente interactiva. Angular también proporciona características 
+ como enrutamiento, inyección de dependencias y manejo de formularios.
+
+Vue.js:
+Vue.js es un framework de JavaScript de código abierto que se utiliza para construir interfaces de usuario interactivas y reutilizables. Similar a Angular,
+ Vue.js utiliza una arquitectura basada en componentes y proporciona características como enrutamiento y manejo de formularios. Además, Vue.js es conocido 
+  su curva de aprendizaje suave y su capacidad para integrarse fácilmente en proyectos existentes.
+
+Sass:
+Sass es un preprocesador de CSS que proporciona características adicionales a CSS, como variables, funciones y anidamiento de selectores. Sass se compila en 
+CSS válido, lo que significa que se puede utilizar en cualquier lugar donde se use CSS. Sass ayuda a los desarrolladores a escribir CSS más eficiente y fácil 
+de mantener, lo que puede acelerar el proceso de desarrollo y mejorar la calidad del código.
