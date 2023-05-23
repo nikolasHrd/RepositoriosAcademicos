@@ -1,0 +1,195 @@
+:root {
+  --fondo-color: ;
+  --items-color: #5D8EAA;
+  --border-color: rgb(161, 132, 240);
+  --text-color: #e7e7e7;
+  --bg: #1e2345;
+  --violet: rgb(161, 132, 240);
+  --pink: #d60087;
+  --turquoise: #2fdabd;
+  --imagen-fondo: url('inicio.jpg');
+  font-size: 10px;
+}
+
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  font-size: 10px;
+  font-family: sans-serif;
+}
+
+body {
+  background: var(--imagen-fondo);
+  background-size: 100%;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 10px 30px;
+  position: fixed;
+  border-bottom: 1000px linear-gradient(to right, #5daa66, #FFFFFF);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+nav img {
+  margin-left: 1300px;
+  
+}
+
+
+nav span i {
+  color: #fff;
+  font-size: 2.7rem;
+  cursor: pointer;
+}
+
+aside {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 260px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  overflow-y: hidden;
+  margin-top: 59px;
+  transition: 0.5s;
+}
+
+aside:hover {
+  overflow-y: auto;
+}
+
+.desplegar {
+  transform: translateX(-100%);
+}
+
+aside::-webkit-scrollbar {
+  width: 8px;
+}
+
+aside::-webkit-scrollbar-thumb {
+  background-color: #909090;
+  border-radius: 5px;
+}
+
+.container-svg {
+  border-bottom: 1px solid var(--border-color);
+  padding: 35px 15px;
+  color: var(--text-color);
+  border-bottom: 1000px linear-gradient(to right, #5daa66, #FFFFFF);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-color: transparent;
+}
+
+.container-svg div {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.container-svg div:hover {
+  background-color: var(--border-color);
+}
+
+.container-svg div span {
+  margin-left: 15px;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+h2 {
+  padding: 10px 20px;
+  color: #aaaaaa;
+}
+
+
+
+
+
+.logo {
+  position: fixed; 
+  left: 600px; 
+  top: 5px; 
+}
+
+.wsp {
+  position: fixed;
+  left: 1400px; 
+  top: 650px; 
+}
+
+.wsp img {
+  transition: transform 0.3s ease;
+}
+
+.wsp img:hover {
+  transform: scale(1.1);
+}
+
+.redes {
+  position: fixed;
+  left: 1300px; 
+  top: 10px; 
+}
+
+.redes img {
+  transition: transform 0.3s ease;
+  margin-right: 15px; 
+}
+
+.redes img:hover {
+  transform: scale(1.1);
+}
+
+.box {
+  animation: gradient 5s linear infinite;
+  background: linear-gradient(100deg, var(--violet) 25%, var(--turquoise) 50%, var(--violet) 75%);
+  background-repeat: repeat;
+  border-radius: 50rem;
+  padding: 2rem;
+  margin: 5rem;
+  position: absolute;
+  width: 1100px;
+  height: 150px;
+  left: 280px;
+  top: 300px;
+  background-color: rgba(0, 0, 0, 0.5); /* Ajusta el valor de la transparencia aquí */
+}
+
+.box2 {
+  animation: gradient 5s linear infinite;
+  background: linear-gradient(100deg, var(--violet) 25%, var(--turquoise) 50%, var(--violet) 75%);
+  background-repeat: repeat;
+  border-radius: 50rem;
+  padding: 2rem;
+  margin: 5rem;
+  position: absolute;
+  width: 300px;
+  height: 50px;
+  left: 650px;
+  top: 460px;
+  background-color: rgba(0, 0, 0, 0.5); /* Ajusta el valor de la transparencia aquí */
+}
+
+
+
+@keyframes gradient {
+  0% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: -80rem 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
