@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Botones</title>
+</head>
+<body>
+    <input type="text" id="search-input">
+    <button id="clear-button">Limpiar</button>
+    <button id="confirm-button">Confirmar</button>
+
+    <script>
+        const searchInput = document.getElementById("search-input");
+        const clearButton = document.getElementById("clear-button");
+        const confirmButton = document.getElementById("confirm-button");
+
+        clearButton.addEventListener("click", () => {
+            searchInput.value = "";
+        });
+
+        confirmButton.addEventListener("click", () => {
+            const searchTerm = searchInput.value;
+            // Realizar alguna acción con el término de búsqueda
+            console.log("Búsqueda confirmada:", searchTerm);
+        });
+    </script>
+</body>
+</html>
