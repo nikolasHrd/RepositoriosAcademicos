@@ -1,0 +1,22 @@
+#:kivy 2.2.0
+
+
+<InterfaceWidget>:
+    BoxLayout:
+        orientation: "vertical"
+        pos:  0, root.height / 2 
+        size: root.width, 100
+
+        Button:
+            text: "Hola B1!"
+
+        Button:
+            text: "Hola B2!"
+
+<SortWidget>:
+    size: root.width, root.height
+
+    BoxLayout:
+        orientation: "Horizontal"
+        id: layout_button
+        size: root.width, root.height

@@ -136,14 +136,160 @@ h2 {
 }
 
 
+.frase {
+  padding: 10px 20px;
+  color: var(--text-color);
+  position: fixed;
+  top: 10%;
+  left: 55%;
+  transform: translateX(-50%);
 
-
-
-.logo {
-  position: fixed; 
-  left: 600px; 
-  top: 5px; 
 }
+
+.frase2 {
+  padding: 10px 20px;
+  color: var(--text-color);
+  position: fixed;
+  top: 22%;
+  left: 38%;
+  transform: translateX(-50%);
+
+}
+
+.frase3 {
+  padding: 10px 20px;
+  color: var(--text-color);
+  position: fixed;
+  top: 22%;
+  left: 72%;
+  transform: translateX(-50%);
+
+}
+
+.actividades {
+  padding: 10px 20px;
+  color: var(--text-color);
+  position: fixed;
+  top: 55%;
+  left: 72%;
+  transform: translateX(-50%);
+  font-size: 15px;
+}
+
+.ORLANDO {
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  left: 50px;
+  top: 10px;
+  border-radius: 1rem;
+  padding: 2rem;
+  margin: 5rem;
+  background: rgba(0, 0, 0, 0.5);
+  border: 3px solid #000000;
+
+}
+
+.ORLANDO img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 1s ease;
+  position: relative;
+  z-index: 999;
+}
+
+.ORLANDO img:hover {
+  transform: scale(1.1);
+  transition: transform 1s ease;
+}
+
+.precioactividades {
+  padding: 10px 20px;
+  color: #ffffff;
+  font-size: 20px; 
+  position: fixed;
+  top: 76%;
+  left: 65%;
+  transform: translateX(-50%);
+}
+
+
+.comprar-btn {
+  background-color: #4CAF50;
+  color: var(--text-color);
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  position: absolute;
+  top: 430px;
+  left: 250px;
+}
+
+
+.frio {
+  padding: 10px 20px;
+  color: var(--text-color);
+  position: fixed;
+  top: 55%;
+  left: 38%;
+  transform: translateX(-50%);
+  font-size: 15px;
+}
+
+.frio3 {
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  left: 50px;
+  top: 10px;
+  border-radius: 1rem;
+  padding: 2rem;
+  margin: 5rem;
+  background: rgba(0, 0, 0, 0.5);
+  border: 3px solid #000000;
+
+}
+
+.frio3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 1s ease;
+  position: relative;
+  z-index: 999;
+}
+
+.frio3 img:hover {
+  transform: scale(1.1);
+  transition: transform 1s ease;
+}
+
+.comprar-btn2 {
+  background-color: #4CAF50;
+  color: var(--text-color);
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  position: absolute;
+  top: 430px;
+  left: 250px;
+}
+
+.preciofrio{
+  padding: 10px 20px;
+  color: #ffffff;
+  font-size: 20px; 
+  position: fixed;
+  top: 76%;
+  left: 31%;
+  transform: translateX(-50%);
+}
+
 
 .wsp {
   position: fixed;
@@ -183,11 +329,11 @@ h2 {
 
 .box {
   position: absolute;
-  width: 1100px;
-  height: 150px;
+  width: 500px;
+  height: 500px;
   left: 280px;
-  top: 300px;
-  border-radius: 50rem;
+  top: 100px;
+  border-radius: 5rem;
   padding: 2rem;
   margin: 5rem;
   background: rgba(0, 0, 0, 0.5);
@@ -215,11 +361,11 @@ h2 {
 .box2 {
 
   position: absolute;
-  width: 300px;
-  height: 50px;
-  left: 650px;
-  top: 460px;
-  border-radius: 50rem;
+  width: 500px;
+  height: 500px;
+  left: 800px;
+  top: 100px;
+  border-radius: 5rem;
   padding: 2rem;
   margin: 5rem;
   background: rgba(0, 0, 0, 0.5);
@@ -236,9 +382,7 @@ h2 {
   width: 100%;
   height: 100%;
   border-radius: inherit;
-  background-color: rgba(0, 0, 0, 0.2);
   background-repeat: repeat;
-  border: 1px solid #000000;
   box-sizing: border-box;
 
 }
@@ -256,4 +400,18 @@ h2 {
   100% {
     border-color: var(--violet);
   }
+}
+
+
+
+@media screen and (max-width: 480px) {
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+}
+
+@media screen and (min-width: 769px) {
+}
+
+@media screen and (min-width: 1200px) {
 }
