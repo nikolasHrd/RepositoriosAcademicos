@@ -293,12 +293,13 @@ h2 {
 
 .wsp {
   position: fixed;
-  left: 1400px; 
-  top: 650px; 
+  left: 90%;
+  top: 85%;
 }
 
 .wsp img {
   transition: transform 0.3s ease;
+
 }
 
 .wsp img:hover {
@@ -306,10 +307,12 @@ h2 {
 }
 
 .redes {
-  position: fixed;
-  left: 1300px; 
-  top: 10px; 
-  padding: 5px 5px;
+  position: absolute;
+  width: 9.5%;
+  height: 5%;
+  left: 85%;
+  top: 3%;
+  padding: 0.1% 0.1%;
   border-radius: 50rem;
   background-color: rgba(0, 0, 0, 0.5);
   border: 3px solid #000000;
@@ -318,14 +321,13 @@ h2 {
 
 .redes img {
   transition: transform 0.3s ease;
-  margin-right: 15px; 
+  margin-right: 1%;
+
 }
 
 .redes img:hover {
   transform: scale(1.1);
 }
-
-
 
 .box {
   position: absolute;
@@ -342,20 +344,7 @@ h2 {
   animation: rainbow 5s linear infinite;
 }
 
-.box::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: inherit;
-  background-color: rgba(0, 0, 0, 0.2);
-  background-repeat: repeat;
-  border: 1px solid #000000;
-  box-sizing: border-box;
 
-}
 
 
 .box2 {
@@ -374,18 +363,6 @@ h2 {
   animation: rainbow 5s linear infinite;
 }
 
-.box2 ::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: inherit;
-  background-repeat: repeat;
-  box-sizing: border-box;
-
-}
 
 @keyframes rainbow {
   0% {

@@ -1,0 +1,20 @@
+/* Estilos para el formulario */
+form {
+    /* Estilos para el formulario */
+  }
+  
+  /* Estilos para las etiquetas de los campos */
+  label {
+    /* Estilos para las etiquetas */
+  }
+  
+  /* Estilos para los campos de entrada */
+  input, textarea {
+    /* Estilos para los campos de entrada */
+  }
+  
+  /* Estilos para el botón de enviar */
+  button[type="submit"] {
+    /* Estilos para el botón de enviar */
+  }
+  

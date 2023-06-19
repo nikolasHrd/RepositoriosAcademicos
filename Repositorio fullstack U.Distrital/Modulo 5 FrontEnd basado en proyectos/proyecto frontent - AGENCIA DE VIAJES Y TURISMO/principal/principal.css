@@ -146,17 +146,15 @@ h2 {
 }
 
 
-
-
-
 .wsp {
   position: fixed;
-  left: 1400px; 
-  top: 650px; 
+  left: 90%;
+  top: 85%;
 }
 
 .wsp img {
   transition: transform 0.3s ease;
+
 }
 
 .wsp img:hover {
@@ -164,10 +162,12 @@ h2 {
 }
 
 .redes {
-  position: fixed;
-  left: 1300px; 
-  top: 10px; 
-  padding: 5px 5px;
+  position: absolute;
+  width: 9.5%;
+  height: 5%;
+  left: 85%;
+  top: 3%;
+  padding: 0.1% 0.1%;
   border-radius: 50rem;
   background-color: rgba(0, 0, 0, 0.5);
   border: 3px solid #000000;
@@ -176,7 +176,8 @@ h2 {
 
 .redes img {
   transition: transform 0.3s ease;
-  margin-right: 15px; 
+  margin-right: 1%;
+
 }
 
 .redes img:hover {
@@ -187,18 +188,19 @@ h2 {
 
 .box {
   position: absolute;
-  width: 1100px;
-  height: 510px;
-  left: 280px;
-  top: 100px;
+  width: 70%;
+  height: 60%;
+  left: 12%;
+  top: -5%;
   border-radius: 5rem;
-  padding: 2rem;
-  margin: 5rem;
+  padding: 2%;
+  margin: 11.1%;
   background: rgba(0, 0, 0, 0.5);
-  border: 3px solid #000000;
+  border: 0.3rem solid #000000;
   overflow: hidden;
   animation: rainbow 5s linear infinite;
 }
+
 
 
 .box::before {

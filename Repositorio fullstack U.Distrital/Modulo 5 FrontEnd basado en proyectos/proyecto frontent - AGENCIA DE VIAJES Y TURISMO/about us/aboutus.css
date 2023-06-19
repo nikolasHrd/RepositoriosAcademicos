@@ -130,28 +130,19 @@ aside::-webkit-scrollbar-thumb {
 }
 
 h2 {
-  padding: 10px 20px;
-  color: val(--text-color);
-}
-
-
-
-
-
-.logo {
-  position: fixed; 
-  left: 600px; 
-  top: 5px; 
+  padding: 1% 2%;
+  color: var(--text-color);
 }
 
 .wsp {
   position: fixed;
-  left: 1400px; 
-  top: 650px; 
+  left: 90%;
+  top: 85%;
 }
 
 .wsp img {
   transition: transform 0.3s ease;
+
 }
 
 .wsp img:hover {
@@ -159,10 +150,12 @@ h2 {
 }
 
 .redes {
-  position: fixed;
-  left: 1300px; 
-  top: 10px; 
-  padding: 5px 5px;
+  position: absolute;
+  width: 9.5%;
+  height: 5%;
+  left: 85%;
+  top: 3%;
+  padding: 0.1% 0.1%;
   border-radius: 50rem;
   background-color: rgba(0, 0, 0, 0.5);
   border: 3px solid #000000;
@@ -171,7 +164,8 @@ h2 {
 
 .redes img {
   transition: transform 0.3s ease;
-  margin-right: 15px; 
+  margin-right: 1%;
+
 }
 
 .redes img:hover {
@@ -179,14 +173,20 @@ h2 {
 }
 
 
+.logo {
+  position: fixed; 
+  left: 47%; 
+  top: 25%; 
+}
+
 
 .box {
   position: absolute;
-  width: 1100px;
-  height: 150px;
-  left: 280px;
-  top: 300px;
-  border-radius: 50rem;
+  width: 60%;
+  height: 70%;
+  left: 20%;
+  top: 10%;
+  border-radius: 5rem;
   padding: 2rem;
   margin: 5rem;
   background: rgba(0, 0, 0, 0.5);
@@ -195,52 +195,71 @@ h2 {
   animation: rainbow 5s linear infinite;
 }
 
-.box::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: inherit;
-  background-color: rgba(0, 0, 0, 0.2);
-  background-repeat: repeat;
-  border: 1px solid #000000;
-  box-sizing: border-box;
 
+
+.titulo1 {
+  padding: 5% 10%;
+  color: var(--text-color);
+  position: fixed;
+  top: 10%;
+  left: 40%;
+  transform: translateX(-50%);
+}
+
+.texto1 {
+  padding: 5% 10%;
+  color: var(--text-color);
+  position: fixed;
+  top: 15%;
+  left: 40%;
+  transform: translateX(-50%);
+  font-size: 12px;
+}
+
+.titulo2 {
+  padding: 5% 10%;
+  color: var(--text-color);
+  position: fixed;
+  top: 32%;
+  left: 40%;
+  transform: translateX(-50%);
+}
+
+.texto2 {
+  padding: 5% 10%;
+  color: var(--text-color);
+  position: fixed;
+  top: 37%;
+  left: 40%;
+  transform: translateX(-50%);
+  font-size: 12px;
+}
+
+.titulo3 {
+  padding: 5% 10%;
+  color: var(--text-color);
+  position: fixed;
+  top: 50%;
+  left: 40%;
+  transform: translateX(-50%);
+}
+
+.texto3 {
+  padding: 5% 10%;
+  color: var(--text-color);
+  position: fixed;
+  top: 55%;
+  left: 40.5%;
+  transform: translateX(-50%);
+  font-size: 12px;
 }
 
 
-.box2 {
 
-  position: absolute;
-  width: 300px;
-  height: 50px;
-  left: 650px;
-  top: 460px;
-  border-radius: 50rem;
-  padding: 2rem;
-  margin: 5rem;
-  background: rgba(0, 0, 0, 0.5);
-  overflow: hidden;
-  border: 3px solid #000000;
-  animation: rainbow 5s linear infinite;
-}
 
-.box2 ::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: inherit;
-  background-color: rgba(0, 0, 0, 0.2);
-  background-repeat: repeat;
-  border: 1px solid #000000;
-  box-sizing: border-box;
 
-}
+
+
 
 @keyframes rainbow {
   0% {
@@ -255,4 +274,16 @@ h2 {
   100% {
     border-color: var(--violet);
   }
+}
+
+@media screen and (max-width: 480px) {
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+}
+
+@media screen and (min-width: 769px) {
+}
+
+@media screen and (min-width: 1200px) {
 }
