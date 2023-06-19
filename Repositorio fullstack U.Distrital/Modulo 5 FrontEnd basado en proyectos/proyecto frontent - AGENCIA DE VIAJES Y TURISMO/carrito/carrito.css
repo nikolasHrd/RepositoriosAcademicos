@@ -130,21 +130,6 @@ aside::-webkit-scrollbar-thumb {
 
 }
 
-.box {
-  position: absolute;
-  width: 30%;
-  height: 80%;
-  left: 20%;
-  top: 2%;
-  border-radius: 5rem;
-  padding: 2rem;
-  margin: 5rem;
-  background: rgba(0, 0, 0, 0.5);
-  border: 3px solid #000000;
-  overflow: hidden;
-  animation: rainbow 5s linear infinite;
-}
-
 .box2 {
   position: absolute;
   width: 30%;
@@ -251,6 +236,74 @@ aside::-webkit-scrollbar-thumb {
   transform: translateX(-50%);
   font-size: 20px;
 }
+
+.box {
+  position: absolute;
+  width: 30%;
+  height: 80%;
+  left: 20%;
+  top: 2%;
+  border-radius: 5rem;
+  padding: 2rem;
+  margin: 5rem;
+  background: rgba(0, 0, 0, 0.5);
+  border: 3px solid #000000;
+  overflow: hidden;
+  animation: rainbow 5s linear infinite;
+}
+
+.boxform {
+  position: absolute;
+  width: 80%;
+  height: 90%;
+  left: 0%;
+  top: -1%;
+  border-radius: 2rem;
+  padding: 2rem;
+  margin: 5rem;
+  background: rgba(0, 0, 0, 0.5);
+  border: 3px solid #000000;
+  overflow: hidden;
+
+}
+
+form {
+
+  width: 100%;
+  height: 100%;
+}
+
+label {
+  color: var(--text-color);
+  width: 100%;
+  margin-bottom: 60%; 
+  font-size: 15px;
+  margin-bottom: 5%;
+}
+
+#mensaje {
+  height: 50%;
+}
+
+input,
+textarea {
+  width: 100%;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: var(--text-color);
+  border: none;
+  padding: 2% 40%;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 
 @keyframes rainbow {
   0% {

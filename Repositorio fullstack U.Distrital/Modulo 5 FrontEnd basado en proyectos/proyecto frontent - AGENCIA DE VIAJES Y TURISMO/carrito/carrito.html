@@ -96,6 +96,30 @@
     <main class="gradient-border">
         <div class="box">
             <h1 class="Form">Formulario de contacto</h1>
+            <div class="boxform">
+                <form action="enviar.php" method="POST">
+                    <label for="nombre">Nombre *</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" required>
+                
+                    <label for="telefono">Teléfono *</label>
+                    <input type="text" id="telefono" name="telefono" required>
+                
+                    <label for="locacion">Locación *</label>
+                    <input type="text" id="locacion" name="locacion" required>
+                
+                    <label for="asunto">Asunto *</label>
+                    <input type="text" id="asunto" name="asunto" required>
+                
+                    <label for="mensaje">Mensaje *</label>
+                    <textarea id="mensaje" name="mensaje" required></textarea>
+                
+                    <button class="buttonform"  type="submit">Enviar</button>
+                  </form>
+    
+            </div>
         </div>
         <div class="box2">
             <h1 class="ZONA">ZONA DE PAGOS</h1>
