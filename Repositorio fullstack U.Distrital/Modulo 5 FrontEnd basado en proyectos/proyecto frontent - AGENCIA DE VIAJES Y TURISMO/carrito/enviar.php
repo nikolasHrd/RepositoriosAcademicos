@@ -8,7 +8,7 @@ $asunto = $_POST['asunto'];
 $mensaje = $_POST['mensaje'];
 
 
-$to = 'tucorreo@example.com';
+$to = 'nukoluks@hotmail.com';
 $subject = 'Nuevo mensaje de contacto';
 $message = "Nombre: $nombre\nEmail: $email\nTeléfono: $telefono\nLocación: $locacion\nAsunto: $asunto\nMensaje: $mensaje";
 $headers = "From: $email";
